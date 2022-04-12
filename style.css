@@ -10,7 +10,12 @@ body {
 a,
 button {
   transition: all 0.3s ease-in-out;
-  outline: none !important;
+  outline: none;
+}
+
+button:active,
+button:focus {
+  border: 2px solid #c27956;
 }
 
 a:hover {
@@ -460,12 +465,8 @@ nav .caret {
 .btn-d,
 .btn-d:hover,
 .btn-d:focus {
-  color: #fff;
+  color: #000;
   background: rgba(0, 0, 0, 0.3);
-}
-
-button {
-  outline: none !important;
 }
 
 .btn-rd {
